@@ -1,0 +1,44 @@
+.btn-1 {
+    font-size: 19px;
+    color: #fff;
+    position: relative;
+    padding: 20px 30px;
+    margin-top: 20px;  
+    box-shadow: 10px 10px 35px var( --seconadary-color);
+    border-radius: 30px; 
+    line-height: 20px;
+    background: linear-gradient(254deg, var(--main-color), #3C6FAE);
+    overflow: hidden;
+    z-index: 2;
+    transition: var(--main-transition);
+}
+
+.btn-1::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    transition: var(--main-transition);
+    z-index: -1;
+}
+
+.btn-1:hover::after {
+    width: 100%;
+    background-color: #fff;
+}
+
+.btn-1:hover {
+    color: #3C6FAE;
+}
+
+.btn-1 i {
+    transform: translateX(5px);
+    transition: var(--main-transition);
+}
+
+.btn-1:hover i {
+    transform: translateX(10px);
+}

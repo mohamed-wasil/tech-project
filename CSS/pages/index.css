@@ -1,0 +1,301 @@
+.main {
+    background-color: #F0F6FF;
+}
+
+/* start home  */
+.home {
+    height: 100vh;
+    background-image: url(../../pic/\(lines\).png);
+    background-position: center;
+    background-size: cover;
+    padding: 15% 0;
+}
+
+.home .home__title h1 {
+    font-size: 75px;
+    line-height: 83px;
+}
+
+.home h1 span {
+    color: var(--main-color);
+}
+
+.home h1 span:first-child {
+    background-image: url(../../pic/circle\ note.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home h1 span:last-child {
+    position: relative;
+}
+
+.home h1 span:last-child::after {
+    content: '';
+    background-image: url(../../pic/line.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%); 
+}
+
+.home p {
+    font-size: 18px;
+    margin-top: 25px;
+    width: 55%;
+}
+
+.home p strong {
+    color: var(--main-color);
+}
+
+/* end home  */
+
+
+
+/* start about  */
+.about {
+    padding-top: 250px
+}
+
+.about .about__info {
+    border-radius: 0px 90px 90px 0px;
+}
+
+.about .about-image {
+    padding-bottom: 30px;
+}
+
+.about .about-image p {
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.about .about-caption {
+    padding: 0 80px 0 50px;
+}
+
+.about .about-caption h2 {
+    padding-top: 112px;
+}
+
+.about .about-caption p:first-of-type {
+    margin: 43px 0 30px;
+}
+
+.about .list {
+    background-color: #fff;
+    right: 0;
+    left: -30%;
+    top: -13%;
+    bottom: 0;
+    padding: 35px;
+    position: relative;
+}
+
+.about .list::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: -18px;
+    background-color: #F0F6FF;
+    height: 25px;
+    width: 60px;
+    transform: rotate(45deg);
+
+}
+
+.about .list li:not(:last-child) {
+    padding-inline-end: 35px;
+}
+
+.about .list a {
+    max-width: 70px;
+}
+/* end about  */
+
+/* start different  */
+.different .different__title {
+    margin-bottom: 41px;
+}
+
+.different .different__title .special-title {
+    padding-inline-end: 125px;
+}
+
+.different .special-title h2::after {
+    right: 50%;
+}
+
+.different .different__info .box {
+    background-image: url(../../pic/Mask\ Group\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px 25px;
+    padding: 50px 30px 70px;
+}
+
+.different .different__info .box img {
+    width: 60px;
+}
+
+.different .different__info .box h4 {
+    color: var(--main-color);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.different .different__info .box p {
+    font-size: 14px;
+    line-height: 24pxx;
+}
+/* end different  */
+
+/* start scope */
+.scope {
+    background-image: url(../../pic/shapes.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.scope .special-title {
+    margin-bottom: 32px;
+}
+
+.scope .box {
+    box-shadow: -10px 10px 50px #0093DE1A;
+    background: linear-gradient(304deg, #FFFFFF 0%, #EFFAFF 100%) 0% 0%;
+    border-radius: 50px 25px;
+    padding: 30px 38px 25px 37.5px;
+}
+
+.scope .vip {
+    margin-top: 50px;
+}
+
+.scope .box-img {
+    width: 60px;
+}
+
+.scope .box-caption h4 {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.scope .box-caption p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.scope .box-captoin .btn-2 {
+    padding: 16px 38.5px;
+}
+/* end scope */
+
+/* start artical  */
+.artical {
+    padding-bottom: 200px;
+}
+
+.artical .special-title {
+    margin-bottom: 55px;
+}
+
+.artical .artical-content {
+    position: relative;
+    background: linear-gradient(334deg, #FFFFFF 0%, #EFFAFF 100%);
+    border-radius: 25px;
+    box-shadow: 0px 20px 50px #0093DE17;
+}
+
+.artical .artical-content::after {
+    position: absolute;
+    content: "E COMMERCE";
+    background-color: #FF6B7E;
+    padding: 4px 10px;
+    color: #fff;
+    top: 17px;
+    left: 19px;
+    border-radius: 8px;
+}
+.artical .vip-content{
+    opacity: .6;
+}
+
+.artical .artical-content .artical-caption {
+    padding: 30px 40px;
+}
+
+.artical .artical-content .artical-caption span,
+.artical .artical-caption .end li h6 {
+    font-size: 12px;
+}
+
+.artical .artical-content .artical-caption>h4 {
+    font-size: 23px;
+}
+
+.artical .artical-content .artical-caption>p {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 15px 0 0;
+}
+
+.artical .artical-caption .end {
+    padding-top: 20px;
+}
+
+.artical .artical-caption .end li:last-child {
+    color: var(--main-color);
+}
+
+.artical .artical-caption .end li:last-child i {
+    transform: translate(5px);
+}
+
+.artical .artical-caption .end li:last-child a:hover {
+    letter-spacing: 1px;
+}
+
+.artical .btn {
+    margin-top: 60px;
+}
+
+.artical .artical__end {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10%;
+    width: 80%;
+    padding: 55px 0;
+    background-color: #F0F6FF;
+    background-image: url(../../pic/shapes.png);
+}
+
+.artical .artical__end input {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 20px;
+    border-radius: 99px;
+    padding: 26px 200px 26px 20px;
+    border: none;
+    background-color: #fff;
+}
+
+.artical .artical__end .lay a {
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+    box-shadow: none;
+}
+
+.artical .artical__end h5 {
+    font-size: 18px;
+}
+/* end artical  */

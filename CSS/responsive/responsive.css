@@ -1,0 +1,288 @@
+/* start xl  */
+@media screen and (max-width: 1200px) {
+
+    .header .navbar-brand {
+        left: 10%;
+    }
+
+    /* strat home */
+    .home .home__title h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    /* end home */
+
+    /* start about  */
+    .about {
+        padding-bottom: 100px;
+    }
+
+    .about .about-image {
+        padding: 50px 50px 0;
+    }
+
+    .about .about-image p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about .list {
+        background-color: transparent;
+        left: 0%;
+        right: 0%;
+        top: 90%;
+        padding: 35px;
+    }
+
+    .about .list::after {
+        display: none;
+    }
+
+    .about .about-caption h2 {
+        padding-top: 50px;
+    }
+
+    /* end about  */
+
+
+    /* start artical  */
+    .artical .artical__end {
+        bottom: 0;
+    }
+
+    .artical .artical__end input {
+        padding: 20px 40px 20px 20px;
+    }
+
+    .artical .vip-content {
+        opacity: 1;
+    }
+
+    /* end artical  */
+
+
+    /* start footer  */
+    .footer {
+        padding: 50px 0;
+    }
+
+    /* end footer  */
+}
+
+/* end xl  */
+
+/* start lg */
+@media screen and (max-width: 992px) {
+
+    .home {
+        height: 75vh;
+    }
+
+    /* start about  */
+    .about .about-caption {
+        padding: 35px;
+    }
+
+    .about .about-image {
+        padding-bottom: 30px;
+    }
+
+    .about .about-image p {
+        flex-shrink: 2;
+        font-size: 17px;
+    }
+
+    .about .about-caption h2 {
+        padding-top: 0;
+    }
+
+    /* start about  */
+
+    /* start different  */
+    .different .special-title h2::after {
+        right: 0%;
+    }
+
+    /* end different  */
+
+    /* start artical  */
+    .artical .artical__end .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+
+
+    /* end artical  */
+
+}
+
+/* end lg */
+
+
+
+/* start md  */
+@media screen and (max-width: 768px) {
+
+    /* strat home */
+    .home {
+        height: 48vh;
+    }
+
+    .home .home__title h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .home p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    /* end home */
+
+
+    /* start about */
+    .about .about-image p {
+        margin-top: 20px;
+        padding-bottom: 40px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .about .about-caption h2 {
+        padding-top: 0px;
+    }
+
+    .about .about-caption p:first-of-type {
+        margin-top: 25px;
+    }
+
+    .about .about-caption p:first-of-type,
+    .about .about-caption p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    /* end about */
+}
+
+/* end md  */
+
+/* start sm  */
+@media screen and (max-width: 576px) {
+    .header .navbar-brand {
+        left: 15%;
+    }
+
+    /* start home  */
+    .home {
+        padding-top: 20%;
+        line-height: 40px;
+    }
+
+    /* end home  */
+
+    /* start about */
+    .about .about-image {
+        padding-bottom: 0;
+    }
+
+    .about .about-image p {
+        margin-top: 20px;
+        padding-bottom: 40px;
+        font-size: 16px;
+    }
+
+    .about .about-caption {
+        padding-top: 0;
+    }
+
+    .about .about-caption h2 {
+        padding-top: 0px;
+    }
+
+    /* end about */
+}
+
+/* end sm  */
+
+@media screen and (max-width: 525px) {
+
+    .special-title h2 {
+        font-size: 20px;
+    }
+
+    .special-title h2::after {
+        height: 15px;
+        width: 80px;
+    }
+
+    .home .home__title h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+
+    .header .navbar-brand {
+        left: 25%;
+    }
+
+    /* strat home */
+    .home {
+        padding-top: 30%;
+    }
+
+    .home .home__title h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .home p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .home .btn {
+        font-size: 17px;
+        padding: 17px 20px;
+    }
+
+    /* end home */
+}
+
+/* start xs  */
+@media screen and (max-width: 350px) {
+
+
+    /* strat home */
+    .home {
+        padding-top: 30%;
+    }
+
+    .home .home__title h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .home p {
+        font-size: 12px;
+    }
+
+    /* end home */
+
+}
+
+/* end xs  */
+@media screen and (max-width: 320px) {
+    .home .btn {
+        font-size: 14px;
+        padding: 15px 17px;
+    }
+    .about {
+        padding-top: 200px;
+    }
+}

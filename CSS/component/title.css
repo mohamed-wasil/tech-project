@@ -1,0 +1,22 @@
+.special-title {
+    font-size: 45px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.special-title h2 {
+    position: relative;
+    z-index: 1;
+}
+
+.special-title h2::after {
+    position: absolute;
+    content: '';
+    background-color: #0094deba;
+    right: 0;
+    bottom: -5px;
+    height: 20px;
+    width: 102px;
+    z-index: -5;
+
+}

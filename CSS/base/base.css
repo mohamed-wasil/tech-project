@@ -1,0 +1,81 @@
+/* @import url(font.css); */
+@import url(font.css);
+
+/* variable start  */
+:root {
+    --main-color: #0093DE;
+    --seconadary-color: #0093DE80;
+    --text-color: #6D6D6D;
+    --main-transition: all .3s;
+}
+
+/* variable end  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-thumb {
+    background:var(--main-color);
+    border-radius: 16px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
+}
+
+html::-webkit-scrollbar {
+    width:10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    transition: var(--main-transition);
+}
+
+
+body {
+    font-family: Gotham;
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Gotham-bold;
+    color: black;
+}
+
+.box-img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.p-100 {
+    padding: 100px 0;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
